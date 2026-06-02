@@ -1,0 +1,12 @@
+tolerance 2.6
+filetype pdb
+output PA260506_08_bulk_init.pdb
+
+nloop0 3000
+nloop 300
+seed 381947
+
+structure single_relax/single_chain_relaxed.pdb
+  number 25
+  inside box 0. 0. 0.  140.0 140.0 140.0
+end structure

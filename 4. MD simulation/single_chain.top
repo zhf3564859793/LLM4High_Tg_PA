@@ -1,0 +1,11 @@
+[ defaults ]
+; nbfunc    comb-rule    gen-pairs    fudgeLJ    fudgeQQ
+1           2            yes          0.5        0.8333
+
+#include "PA260506_08.itp"
+
+[ system ]
+Single PA260506_08 chain
+
+[ molecules ]
+PA260506_08    1
