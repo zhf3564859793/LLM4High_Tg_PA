@@ -5,7 +5,7 @@
 
 This is the code for "From Automated Data Extraction to Inverse Design: Discovering Ultrahigh Glass Transition Temperature Polyamides Enabled by Large Language Models"
 
-![image](https://github.com/zhf3564859793/LLM4High_Tg_PA/tree/main/Figure/Figure1.jpg)
+![image](https://raw.githubusercontent.com/zhf3564859793/LLM4High_Tg_PA/main/Figure/Figure%201.jpg)
 
 This work presents an integrated framework that combines large language models (LLMs), machine learning, and molecular dynamics simulations for the discovery of high-glass-transition-temperature (high-$T_g$) polyamides. The framework consists of four main parts: automated literature information extraction, forward property prediction, inverse molecular design, and molecular dynamics validation.
 
