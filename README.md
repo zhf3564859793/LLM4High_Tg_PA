@@ -11,7 +11,11 @@ This work presents an integrated framework that combines large language models (
 
 ### Prerequisites
 
-The Python-based workflows require a standard scientific Python environment. Typical packages include:
+The Python-based workflows require a standard scientific Python environment. 
+```sh
+python = 3.11.13 
+```
+Typical packages include:
 
 ```sh
 pip install numpy pandas scipy scikit-learn matplotlib rdkit openai torch shap
