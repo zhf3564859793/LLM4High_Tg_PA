@@ -13,6 +13,7 @@ The Python-based workflows require a standard scientific Python environment. Typ
 
 ```sh
 pip install numpy pandas scipy scikit-learn matplotlib rdkit openai torch shap
+```
 
 For molecular dynamics simulations, the following software is required:
 
@@ -89,15 +90,14 @@ The simulation scripts are located in:
 
 ```text
 4. MD simulation/scripts/
+```
 
 ## How to Cite
 
 If you use this repository in your research, please cite:
 
 ```text
-From Automated Data Extraction to Inverse Design:
-Discovering Ultrahigh Glass Transition Temperature Polyamides
-Enabled by Large Language Models
+From Automated Data Extraction to Inverse Design: Discovering Ultrahigh Glass Transition Temperature Polyamides Enabled by Large Language Models
 ```
 
 The complete citation information will be updated after publication.
