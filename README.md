@@ -9,7 +9,7 @@ This is the code for "From Automated Data Extraction to Inverse Design: Discover
 
 This work presents an integrated framework that combines large language models (LLMs), machine learning, and molecular dynamics simulations for the discovery of high-glass-transition-temperature (high $T_g$) polyamides. The framework consists of four main parts: automated literature information extraction, forward property prediction, inverse molecular design, and molecular dynamics validation.
 
-### Prerequisites
+### Prerequisites and Installation
 
 The Python-based workflows require a standard scientific Python environment. 
 ```sh
@@ -25,8 +25,6 @@ For molecular dynamics simulations, the following software is required:
 
 - GROMACS
 - Packmol
-
-### Installation
 
 1. Clone this repository to your local machine:
 
@@ -73,7 +71,7 @@ The trained forward model is further used to evaluate polyamide structures gener
 
 ## 3. Inverse Model
 
-The `3. Inverse Model` folder contains the data used for large-language-model-based inverse design of high $T_g$ polyamides. In this work, a pretrained language model was first fine-tuned on polyamide structures using supervised fine-tuning (SFT). Direct Preference Optimization (DPO) was subsequently applied to guide the model toward generating polyamides with higher glass transition temperatures. The **DPO training dataset used in this work is provided in this repository**. The dataset contains preference pairs constructed according to the predicted $T_g$ of polyamides, where high $T_g$ structures are treated as preferred outputs and relatively low $T_g$ structures as non-preferred outputs. Users with access to the OpenAI fine-tuning platform can directly use the provided dataset to perform DPO fine-tuning. The DPO fine-tuning procedure can follow the OpenAI documentation: [OpenAI Direct Preference Optimization Documentation](https://platform.openai.com/docs/guides/direct-preference-optimization) 
+The `3. Inverse Model` folder contains the data used for large-language-model-based inverse design of high $T_g$ polyamides. In this work, a pretrained language model was first fine-tuned on polyamide structures using supervised fine-tuning (SFT). Direct Preference Optimization (DPO) was subsequently applied to guide the model toward generating polyamides with higher glass transition temperatures. The **DPO training dataset used in this work is provided in this repository**. The dataset contains preference pairs constructed according to the $T_g$ of polyamides, where high $T_g$ structures are treated as preferred outputs and relatively low $T_g$ structures as non-preferred outputs. Users with access to the OpenAI fine-tuning platform can directly use the provided dataset to perform DPO fine-tuning. The DPO fine-tuning procedure can follow the OpenAI documentation: [OpenAI Direct Preference Optimization Documentation](https://platform.openai.com/docs/guides/direct-preference-optimization) 
 
 ## 4. Molecular Dynamics Simulation
 
